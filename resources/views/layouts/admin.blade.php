@@ -23,13 +23,13 @@
 
 
 
-    <nav class="fixed top-0 z-50 w-full bg-neutral-primary-soft border-b border-default">
+    <nav class="fixed top-0 z-50 w-full bg-white border-b border-gray-200 dark:bg-gray-800 dark:border-gray-700">
         <div class="px-3 py-3 lg:px-5 lg:pl-3">
             <div class="flex items-center justify-between">
                 <div class="flex items-center justify-start rtl:justify-end">
                     <button data-drawer-target="top-bar-sidebar" data-drawer-toggle="top-bar-sidebar"
                         aria-controls="top-bar-sidebar" type="button"
-                        class="sm:hidden text-heading bg-transparent box-border border border-transparent hover:bg-neutral-secondary-medium focus:ring-4 focus:ring-neutral-tertiary font-medium leading-5 rounded-base text-sm p-2 focus:outline-none">
+                        class="inline-flex items-center p-2 text-sm text-gray-500 rounded-lg sm:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600">
                         <span class="sr-only">Open sidebar</span>
                         <svg class="w-6 h-6" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
                             height="24" fill="none" viewBox="0 0 24 24">
@@ -55,35 +55,35 @@
                                     alt="user photo">
                             </button>
                         </div>
-                        <div class="z-50 hidden bg-neutral-primary-medium border border-default-medium rounded-base shadow-lg w-44"
+                        <div class="z-50 hidden bg-white border border-gray-200 rounded-lg shadow-lg w-44 dark:bg-gray-700 dark:border-gray-600"
                             id="dropdown-user">
-                            <div class="px-4 py-3 border-b border-default-medium" role="none">
-                                <p class="text-sm font-medium text-heading" role="none">
+                            <div class="px-4 py-3 border-b border-gray-200 dark:border-gray-600" role="none">
+                                <p class="text-sm font-medium text-gray-900 dark:text-white" role="none">
                                     Neil Sims
                                 </p>
-                                <p class="text-sm text-body truncate" role="none">
+                                <p class="text-sm text-gray-500 truncate dark:text-gray-400" role="none">
                                     neil.sims@flowbite.com
                                 </p>
                             </div>
-                            <ul class="p-2 text-sm text-body font-medium" role="none">
+                            <ul class="p-2 text-sm text-gray-700 dark:text-gray-200 font-medium" role="none">
                                 <li>
                                     <a href="#"
-                                        class="inline-flex items-center w-full p-2 hover:bg-neutral-tertiary-medium hover:text-heading rounded"
+                                        class="inline-flex items-center w-full p-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white rounded"
                                         role="menuitem">Dashboard</a>
                                 </li>
                                 <li>
                                     <a href="#"
-                                        class="inline-flex items-center w-full p-2 hover:bg-neutral-tertiary-medium hover:text-heading rounded"
+                                        class="inline-flex items-center w-full p-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white rounded"
                                         role="menuitem">Settings</a>
                                 </li>
                                 <li>
                                     <a href="#"
-                                        class="inline-flex items-center w-full p-2 hover:bg-neutral-tertiary-medium hover:text-heading rounded"
+                                        class="inline-flex items-center w-full p-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white rounded"
                                         role="menuitem">Earnings</a>
                                 </li>
                                 <li>
                                     <a href="#"
-                                        class="inline-flex items-center w-full p-2 hover:bg-neutral-tertiary-medium hover:text-heading rounded"
+                                        class="inline-flex items-center w-full p-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white rounded"
                                         role="menuitem">Sign out</a>
                                 </li>
                             </ul>
@@ -97,16 +97,16 @@
     <aside id="top-bar-sidebar"
         class="fixed top-0 left-0 z-40 w-64 h-full transition-transform -translate-x-full sm:translate-x-0"
         aria-label="Sidebar">
-        <div class="h-full px-3 py-4 overflow-y-auto bg-neutral-primary-soft border-e border-default">
+        <div class="h-full px-3 py-4 overflow-y-auto bg-white border-e border-gray-200 dark:bg-gray-800 dark:border-gray-700">
             <a href="https://flowbite.com/" class="flex items-center ps-2.5 mb-5">
                 <img src="https://flowbite.com/docs/images/logo.svg" class="h-6 me-3" alt="Flowbite Logo" />
-                <span class="self-center text-lg text-heading font-semibold whitespace-nowrap">Flowbite</span>
+                <span class="self-center text-lg text-gray-900 font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
             </a>
             <ul class="space-y-2 font-medium">
                 <li>
                     <a href="#"
-                        class="flex items-center px-2 py-1.5 text-body rounded-base hover:bg-neutral-tertiary hover:text-fg-brand group">
-                        <svg class="w-5 h-5 transition duration-75 group-hover:text-fg-brand" aria-hidden="true"
+                        class="flex items-center px-2 py-1.5 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                        <svg class="w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white" aria-hidden="true"
                             xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none"
                             viewBox="0 0 24 24">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -119,8 +119,8 @@
                 </li>
                 <li>
                     <a href="#"
-                        class="flex items-center px-2 py-1.5 text-body rounded-base hover:bg-neutral-tertiary hover:text-fg-brand group">
-                        <svg class="shrink-0 w-5 h-5 transition duration-75 group-hover:text-fg-brand"
+                        class="flex items-center px-2 py-1.5 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                        <svg class="shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
                             aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                             fill="none" viewBox="0 0 24 24">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -129,13 +129,13 @@
                         </svg>
                         <span class="flex-1 ms-3 whitespace-nowrap">Kanban</span>
                         <span
-                            class="bg-neutral-secondary-medium border border-default-medium text-heading text-xs font-medium px-1.5 py-0.5 rounded-sm">Pro</span>
+                            class="bg-gray-100 border border-gray-200 text-gray-800 text-xs font-medium px-1.5 py-0.5 rounded-sm dark:bg-gray-700 dark:border-gray-600 dark:text-gray-300">Pro</span>
                     </a>
                 </li>
                 <li>
                     <a href="#"
-                        class="flex items-center px-2 py-1.5 text-body rounded-base hover:bg-neutral-tertiary hover:text-fg-brand group">
-                        <svg class="shrink-0 w-5 h-5 transition duration-75 group-hover:text-fg-brand"
+                        class="flex items-center px-2 py-1.5 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                        <svg class="shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
                             aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                             fill="none" viewBox="0 0 24 24">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -144,13 +144,13 @@
                         </svg>
                         <span class="flex-1 ms-3 whitespace-nowrap">Inbox</span>
                         <span
-                            class="inline-flex items-center justify-center w-4.5 h-4.5 ms-2 text-xs font-medium text-fg-danger-strong bg-danger-soft border border-danger-subtle rounded-full">2</span>
+                            class="inline-flex items-center justify-center w-5 h-5 ms-2 text-xs font-medium text-red-800 bg-red-100 rounded-full dark:bg-red-900 dark:text-red-300">2</span>
                     </a>
                 </li>
                 <li>
                     <a href="#"
-                        class="flex items-center px-2 py-1.5 text-body rounded-base hover:bg-neutral-tertiary hover:text-fg-brand group">
-                        <svg class="shrink-0 w-5 h-5 transition duration-75 group-hover:text-fg-brand"
+                        class="flex items-center px-2 py-1.5 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                        <svg class="shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
                             aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                             fill="none" viewBox="0 0 24 24">
                             <path stroke="currentColor" stroke-linecap="round" stroke-width="2"
@@ -161,8 +161,8 @@
                 </li>
                 <li>
                     <a href="#"
-                        class="flex items-center px-2 py-1.5 text-body rounded-base hover:bg-neutral-tertiary hover:text-fg-brand group">
-                        <svg class="shrink-0 w-5 h-5 transition duration-75 group-hover:text-fg-brand"
+                        class="flex items-center px-2 py-1.5 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                        <svg class="shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
                             aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                             fill="none" viewBox="0 0 24 24">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -174,8 +174,8 @@
                 </li>
                 <li>
                     <a href="#"
-                        class="flex items-center px-2 py-1.5 text-body rounded-base hover:bg-neutral-tertiary hover:text-fg-brand group">
-                        <svg class="shrink-0 w-5 h-5 transition duration-75 group-hover:text-fg-brand"
+                        class="flex items-center px-2 py-1.5 text-gray-900 rounded-lg dark:text-white hover:bg-gray-100 dark:hover:bg-gray-700 group">
+                        <svg class="shrink-0 w-5 h-5 text-gray-500 transition duration-75 dark:text-gray-400 group-hover:text-gray-900 dark:group-hover:text-white"
                             aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24"
                             fill="none" viewBox="0 0 24 24">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -190,10 +190,10 @@
     </aside>
 
     <div class="p-4 sm:ml-64 mt-14">
-        <div class="p-4 border-1 border-default border-dashed rounded-base">
+        <div class="p-4 border-2 border-gray-200 border-dashed rounded-lg dark:border-gray-700">
             <div class="grid grid-cols-3 gap-4 mb-4">
-                <div class="flex items-center justify-center h-24 rounded-base bg-neutral-secondary-soft">
-                    <p class="text-fg-disabled">
+                <div class="flex items-center justify-center h-24 rounded bg-gray-50 dark:bg-gray-800"
+                    <p class="text-gray-400 dark:text-gray-500">
                         <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
                             height="24" fill="none" viewBox="0 0 24 24">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -201,8 +201,8 @@
                         </svg>
                     </p>
                 </div>
-                <div class="flex items-center justify-center h-24 rounded-base bg-neutral-secondary-soft">
-                    <p class="text-fg-disabled">
+                <div class="flex items-center justify-center h-24 rounded bg-gray-50 dark:bg-gray-800"
+                    <p class="text-gray-400 dark:text-gray-500">
                         <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
                             height="24" fill="none" viewBox="0 0 24 24">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -210,8 +210,8 @@
                         </svg>
                     </p>
                 </div>
-                <div class="flex items-center justify-center h-24 rounded-base bg-neutral-secondary-soft">
-                    <p class="text-fg-disabled">
+                <div class="flex items-center justify-center h-24 rounded bg-gray-50 dark:bg-gray-800"
+                    <p class="text-gray-400 dark:text-gray-500">
                         <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
                             height="24" fill="none" viewBox="0 0 24 24">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -220,8 +220,8 @@
                     </p>
                 </div>
             </div>
-            <div class="flex items-center justify-center h-48 rounded-base bg-neutral-secondary-soft mb-4">
-                <p class="text-fg-disabled">
+            <div class="flex items-center justify-center h-48 rounded bg-gray-50 dark:bg-gray-800 mb-4"
+                <p class="text-gray-400 dark:text-gray-500">
                     <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
                         height="24" fill="none" viewBox="0 0 24 24">
                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -230,8 +230,8 @@
                 </p>
             </div>
             <div class="grid grid-cols-2 gap-4 mb-4">
-                <div class="flex items-center justify-center h-24 rounded-base bg-neutral-secondary-soft">
-                    <p class="text-fg-disabled">
+                <div class="flex items-center justify-center h-24 rounded bg-gray-50 dark:bg-gray-800"
+                    <p class="text-gray-400 dark:text-gray-500">
                         <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
                             height="24" fill="none" viewBox="0 0 24 24">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -239,8 +239,8 @@
                         </svg>
                     </p>
                 </div>
-                <div class="flex items-center justify-center h-24 rounded-base bg-neutral-secondary-soft">
-                    <p class="text-fg-disabled">
+                <div class="flex items-center justify-center h-24 rounded bg-gray-50 dark:bg-gray-800"
+                    <p class="text-gray-400 dark:text-gray-500">
                         <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
                             height="24" fill="none" viewBox="0 0 24 24">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -248,8 +248,8 @@
                         </svg>
                     </p>
                 </div>
-                <div class="flex items-center justify-center h-24 rounded-base bg-neutral-secondary-soft">
-                    <p class="text-fg-disabled">
+                <div class="flex items-center justify-center h-24 rounded bg-gray-50 dark:bg-gray-800"
+                    <p class="text-gray-400 dark:text-gray-500">
                         <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
                             height="24" fill="none" viewBox="0 0 24 24">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -257,8 +257,8 @@
                         </svg>
                     </p>
                 </div>
-                <div class="flex items-center justify-center h-24 rounded-base bg-neutral-secondary-soft">
-                    <p class="text-fg-disabled">
+                <div class="flex items-center justify-center h-24 rounded bg-gray-50 dark:bg-gray-800"
+                    <p class="text-gray-400 dark:text-gray-500">
                         <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
                             height="24" fill="none" viewBox="0 0 24 24">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -267,8 +267,8 @@
                     </p>
                 </div>
             </div>
-            <div class="flex items-center justify-center h-48 rounded-base bg-neutral-secondary-soft mb-4">
-                <p class="text-fg-disabled">
+            <div class="flex items-center justify-center h-48 rounded bg-gray-50 dark:bg-gray-800 mb-4"
+                <p class="text-gray-400 dark:text-gray-500">
                     <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
                         height="24" fill="none" viewBox="0 0 24 24">
                         <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -277,8 +277,8 @@
                 </p>
             </div>
             <div class="grid grid-cols-2 gap-4">
-                <div class="flex items-center justify-center h-24 rounded-base bg-neutral-secondary-soft">
-                    <p class="text-fg-disabled">
+                <div class="flex items-center justify-center h-24 rounded bg-gray-50 dark:bg-gray-800"
+                    <p class="text-gray-400 dark:text-gray-500">
                         <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
                             height="24" fill="none" viewBox="0 0 24 24">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -286,8 +286,8 @@
                         </svg>
                     </p>
                 </div>
-                <div class="flex items-center justify-center h-24 rounded-base bg-neutral-secondary-soft">
-                    <p class="text-fg-disabled">
+                <div class="flex items-center justify-center h-24 rounded bg-gray-50 dark:bg-gray-800"
+                    <p class="text-gray-400 dark:text-gray-500">
                         <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
                             height="24" fill="none" viewBox="0 0 24 24">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -295,8 +295,8 @@
                         </svg>
                     </p>
                 </div>
-                <div class="flex items-center justify-center h-24 rounded-base bg-neutral-secondary-soft">
-                    <p class="text-fg-disabled">
+                <div class="flex items-center justify-center h-24 rounded bg-gray-50 dark:bg-gray-800"
+                    <p class="text-gray-400 dark:text-gray-500">
                         <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
                             height="24" fill="none" viewBox="0 0 24 24">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
@@ -304,8 +304,8 @@
                         </svg>
                     </p>
                 </div>
-                <div class="flex items-center justify-center h-24 rounded-base bg-neutral-secondary-soft">
-                    <p class="text-fg-disabled">
+                <div class="flex items-center justify-center h-24 rounded bg-gray-50 dark:bg-gray-800"
+                    <p class="text-gray-400 dark:text-gray-500">
                         <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24"
                             height="24" fill="none" viewBox="0 0 24 24">
                             <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
